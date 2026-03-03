@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Política de Privacidade — FastTech</title>
+    <meta name="description" content="Política de Privacidade para aplicativos e soluções da FastTech.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">
+                <img src="logo-rocket.svg" alt="FastTech logo" class="logo">
+                <span class="brand-text">FastTech</span>
+            </a>
+            <nav class="nav" aria-label="Navegação">
+                <a href="index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container policy">
+            <h1>Política de Privacidade — FastTech</h1>
+            <p>Última atualização: <span id="pp-date"></span></p>
+
+            <p>A FastTech desenvolve aplicativos e soluções digitais. Esta Política de Privacidade explica, de forma
+                clara, quais dados podem ser coletados quando você utiliza nossos aplicativos e como esses dados são
+                utilizados.</p>
+
+            <h2>1. Dados Coletados</h2>
+            <p>Coletamos apenas os dados necessários para o funcionamento, segurança e suporte do aplicativo. Dependendo
+                do aplicativo e do uso, podemos coletar:</p>
+            <ul>
+                <li>E-mail do usuário (por exemplo, e-mail corporativo, quando aplicável)</li>
+                <li>Dados de autenticação e sessão (por exemplo, identificadores técnicos de login)</li>
+                <li>Dados técnicos e de uso (por exemplo, versão do app, modelo do dispositivo, sistema operacional,
+                    registros de falha)</li>
+                <li>Conteúdo enviado no app quando você utiliza recursos de comunicação (por exemplo, mensagens e
+                    anexos), quando aplicável</li>
+                <li>Permissões opcionais (por exemplo, notificações, câmera, arquivos), apenas quando necessárias ao
+                    recurso e mediante sua ação</li>
+            </ul>
+            <p>Não coletamos dados pessoais sensíveis intencionalmente, salvo quando estritamente necessário para uma
+                funcionalidade específica e com as medidas adequadas de segurança.</p>
+
+            <h2>2. Finalidade da Coleta</h2>
+            <p>Os dados (incluindo o e-mail) são utilizados exclusivamente para:</p>
+            <ul>
+                <li>Identificação do usuário e autenticação de acesso</li>
+                <li>Habilitar recursos do aplicativo (por exemplo, comunicação entre usuários autorizados, quando
+                    aplicável)</li>
+                <li>Prestar suporte, responder solicitações e manter canais de contato</li>
+                <li>Melhorar desempenho, estabilidade e experiência de uso (por exemplo, análise de falhas)</li>
+                <li>Prevenir fraude, abuso e incidentes de segurança</li>
+            </ul>
+            <p>Quando aplicável, o tratamento de dados é realizado conforme as bases legais previstas na Lei nº
+                13.709/2018 (LGPD), como execução de contrato, legítimo interesse e cumprimento de obrigação legal.</p>
+
+            <h2>3. Compartilhamento de Dados</h2>
+            <p>Seus dados não são vendidos ou alugados. Podemos compartilhar dados estritamente necessários apenas nas
+                seguintes hipóteses:</p>
+            <ul>
+                <li>Quando necessário para o funcionamento técnico do sistema (ex.: serviços de hospedagem,
+                    armazenamento, envio de e-mails, registros de falhas), com fornecedores que atuam sob medidas de
+                    segurança e obrigações contratuais</li>
+                <li>Quando exigido por obrigação legal, ordem judicial, ou para proteger direitos e segurança de
+                    usuários e da FastTech</li>
+            </ul>
+
+            <h2>4. Armazenamento e Segurança</h2>
+            <p>Os dados são armazenados em ambiente seguro, com medidas técnicas e organizacionais adequadas para
+                reduzir riscos de acesso não autorizado, vazamento ou uso indevido. Essas medidas podem incluir controle
+                de acesso, criptografia em trânsito e monitoramento de segurança.</p>
+            <p>Nenhum método de transmissão ou armazenamento é 100% seguro, mas buscamos continuamente aprimorar nossas
+                práticas.</p>
+
+            <h2>5. Direitos do Usuário</h2>
+            <p>Nos termos da Lei nº 13.709/2018 (LGPD), o usuário pode solicitar:</p>
+            <ul>
+                <li>Acesso aos seus dados</li>
+                <li>Correção de informações</li>
+                <li>Exclusão do cadastro, quando aplicável</li>
+                <li>Informações sobre compartilhamento e tratamento, quando cabível</li>
+            </ul>
+            <p>Para exercer esses direitos, entre em contato pelo e-mail: <a
+                    href="mailto:lwsfesttech@gmail.com">lwsfesttech@gmail.com</a>.</p>
+
+            <h2>6. Retenção</h2>
+            <p>Reteremos os dados apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política,
+                para manter a segurança do aplicativo e para atender obrigações legais e regulatórias. Quando possível e
+                aplicável, dados podem ser anonimizados ou excluídos.</p>
+
+            <h2>7. Alterações</h2>
+            <p>Esta Política poderá ser atualizada a qualquer momento. A versão vigente estará sempre disponível no
+                aplicativo e/ou em nossos canais oficiais, com a data de atualização indicada acima.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© <span id="year"></span> FastTech</span>
+            <a href="index.html">Home</a>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('pp-date').textContent = new Date().toISOString().slice(0, 10);
+    </script>
+</body>
+
+</html>

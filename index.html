@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FastTech — Desenvolvimento de Software</title>
+    <meta name="description" content="Soluções rápidas e confiáveis em desenvolvimento de software e aplicativos.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">
+                <img src="logo-rocket.svg" alt="Logo FastTech: foguete azul com raio amarelo" class="logo">
+                <span class="brand-text">FastTech</span>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Desenvolvimento de Software que decola</h1>
+                <p>Criamos apps e soluções web com foco em desempenho, qualidade e entrega ágil.</p>
+                <a class="btn" href="#contato">Fale conosco</a>
+            </div>
+        </section>
+
+        <section id="servicos" class="section">
+            <div class="container grid-3">
+                <div class="card">
+                    <h2>Apps Mobile</h2>
+                    <p>iOS e Android nativos ou cross‑platform, do protótipo à publicação.</p>
+                </div>
+                <div class="card">
+                    <h2>Web & APIs</h2>
+                    <p>Sites, painéis e APIs seguras, escaláveis e bem documentadas.</p>
+                </div>
+                <div class="card">
+                    <h2>Consultoria</h2>
+                    <p>Arquitetura, revisão de código, performance e automações CI/CD.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section alt">
+            <div class="container">
+                <h2>Sobre a FastTech</h2>
+                <p>Somos uma empresa de desenvolvimento de software focada em entregar valor rápido, com código limpo,
+                    testes e observabilidade. Trabalhamos próximo ao cliente para transformar ideias em produtos.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Envie um e‑mail e retornamos em até 1 dia útil.</p>
+                <p><a href="mailto:lwsfesttech@gmail.com">lwsfesttech@gmail.com</a></p>
+                <p class="small">Ao entrar em contato, você concorda que usaremos seus dados apenas para responder à sua
+                    solicitação. Veja nossa <a href="privacy.html">Privacy Policy</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© <span id="year"></span> FastTech. Todos os direitos reservados.</span>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
