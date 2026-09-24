@@ -4,68 +4,255 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FastTech — Desenvolvimento de Software</title>
+    <title>FastTech • Desenvolvimento de Software</title>
     <meta name="description" content="Soluções rápidas e confiáveis em desenvolvimento de software e aplicativos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header class="site-header">
-        <div class="container">
+        <div class="container nav-wrap">
             <a class="brand" href="index.html">
                 <img src="logo-rocket.svg" alt="Logo FastTech: foguete azul com raio amarelo" class="logo">
                 <span class="brand-text">FastTech</span>
             </a>
             <nav class="nav" aria-label="Navegação principal">
                 <a href="#servicos">Serviços</a>
+                <a href="#processo">Como funciona</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>
-                <a href="privacy.html">Privacy Policy</a>
             </nav>
+            <a class="btn btn-primary btn-sm" href="https://wa.me/5581998839100" target="_blank" rel="noopener">WhatsApp</a>
         </div>
     </header>
 
     <main>
         <section class="hero">
-            <div class="container">
-                <h1>Desenvolvimento de Software que decola</h1>
-                <p>Criamos apps e soluções web com foco em desempenho, qualidade e entrega ágil.</p>
-                <a class="btn" href="#contato">Fale conosco</a>
+            <div class="container hero-inner">
+                <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>Software sob medida para o
+                    seu produto</span>
+                <h1>Desenvolvimento de Software<br><span class="accent-text">que decola</span></h1>
+                <p class="hero-lead">Criamos apps e soluções web com foco em desempenho, qualidade e entrega ágil.
+                    Do primeiro protótipo à produção.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="https://wa.me/5581998839100?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20desenvolvimento%20de%20software"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 5h16v11H9l-4 4V5z" />
+                        </svg>
+                        Falar no WhatsApp
+                    </a>
+                    <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+                </div>
+                <ul class="trust-row">
+                    <li>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Resposta rápida no WhatsApp
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Atendimento sem intermediários
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Entrega ágil
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                        </svg>
+                        Suporte pós-lançamento
+                    </li>
+                </ul>
             </div>
         </section>
 
         <section id="servicos" class="section">
-            <div class="container grid-3">
-                <div class="card">
-                    <h2>Apps Mobile</h2>
-                    <p>iOS e Android nativos ou cross‑platform, do protótipo à publicação.</p>
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Por que a FastTech</span>
+                    <h2>Motivos para desenvolver seu próximo produto com a gente</h2>
+                    <p class="section-sub">Um jeito direto de transformar ideia em software, sem burocracia, sem
+                        enrolação.</p>
                 </div>
-                <div class="card">
-                    <h2>Web & APIs</h2>
-                    <p>Sites, painéis e APIs seguras, escaláveis e bem documentadas.</p>
+
+                <div class="feature-grid-top">
+                    <div class="feature-card feature-card-accent">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="8" />
+                                <circle cx="12" cy="12" r="4" />
+                                <circle cx="12" cy="12" r=".6" fill="currentColor" stroke="none" />
+                            </svg>
+                        </div>
+                        <h3>Feito sob medida</h3>
+                        <p>Cada projeto começa do zero, pensado para o seu negócio. Nada de soluções genéricas
+                            remontadas.</p>
+                    </div>
+                    <div class="feature-card feature-card-dark">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3l9 5-9 5-9-5 9-5z" />
+                                <path d="M3 13l9 5 9-5" />
+                            </svg>
+                        </div>
+                        <h3>Sempre atualizado</h3>
+                        <p>Usamos ferramentas atuais para garantir mais segurança e estabilidade no dia a dia.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h2>Consultoria</h2>
-                    <p>Arquitetura, revisão de código, performance e automações CI/CD.</p>
+
+                <div class="feature-grid-bottom">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" />
+                            </svg>
+                        </div>
+                        <h3>Entrega ágil</h3>
+                        <p>Entregas rápidas e constantes, para você acompanhar cada etapa do projeto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 5h16v11H9l-4 4V5z" />
+                            </svg>
+                        </div>
+                        <h3>Suporte direto</h3>
+                        <p>Você fala direto com quem está cuidando do seu projeto, sem intermediários.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" />
+                                <path d="M9 12l2 2 4-4" />
+                            </svg>
+                        </div>
+                        <h3>Qualidade garantida</h3>
+                        <p>Verificamos tudo com cuidado antes de entregar, para reduzir erros e retrabalho.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 17l6-6 4 4 8-8" />
+                                <path d="M15 7h6v6" />
+                            </svg>
+                        </div>
+                        <h3>Pronto para crescer</h3>
+                        <p>Um planejamento pensado para crescer junto com o seu negócio, sem dor de cabeça.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="sobre" class="section alt">
+        <section id="processo" class="section alt">
             <div class="container">
-                <h2>Sobre a FastTech</h2>
-                <p>Somos uma empresa de desenvolvimento de software focada em entregar valor rápido, com código limpo,
-                    testes e observabilidade. Trabalhamos próximo ao cliente para transformar ideias em produtos.</p>
+                <div class="section-head">
+                    <span class="eyebrow">Como funciona</span>
+                    <h2>Um processo simples, do primeiro contato à entrega</h2>
+                    <p class="section-sub">Passos claros, sem burocracia, para sair da ideia ao produto no ar.</p>
+                </div>
+
+                <div class="steps-layout">
+                    <ol class="steps-list">
+                        <li>
+                            <span class="step-num">1</span>
+                            <div>
+                                <h3>Contato inicial</h3>
+                                <p>Você conta a ideia, a gente entende o problema e o contexto.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-num">2</span>
+                            <div>
+                                <h3>Proposta</h3>
+                                <p>Combinamos prazo, valor e detalhes do trabalho com transparência.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-num">3</span>
+                            <div>
+                                <h3>Desenvolvimento</h3>
+                                <p>Trabalho contínuo, com entregas visíveis e comunicação constante.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-num">4</span>
+                            <div>
+                                <h3>Entrega &amp; suporte</h3>
+                                <p>Colocamos tudo no ar, com acompanhamento de perto e suporte após o lançamento.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <div class="chat-mock" aria-hidden="true">
+                        <div class="chat-mock-header">
+                            <span class="chat-mock-avatar"></span>
+                            <div class="chat-mock-title">
+                                <strong>FastTech</strong>
+                                <span>Online agora</span>
+                            </div>
+                        </div>
+                        <div class="chat-mock-body">
+                            <div class="bubble bubble-in">Oi! Quero saber mais sobre um projeto.</div>
+                            <div class="bubble bubble-out">Claro! Me conta um pouco da ideia 🙂</div>
+                            <div class="bubble bubble-in">É um app para o meu negócio...</div>
+                            <div class="bubble bubble-out">Perfeito, já te passo os próximos passos!</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="contato" class="section">
-            <div class="container">
-                <h2>Contato</h2>
-                <p>Envie um e‑mail e retornamos em até 1 dia útil.</p>
-                <p><a href="mailto:lwsfesttech@gmail.com">lwsfesttech@gmail.com</a></p>
-                <p class="small">Ao entrar em contato, você concorda que usaremos seus dados apenas para responder à sua
-                    solicitação. Veja nossa <a href="privacy.html">Privacy Policy</a>.</p>
+        <section id="sobre" class="section">
+            <div class="container narrow">
+                <div class="section-head">
+                    <span class="eyebrow">Sobre</span>
+                    <h2>Uma equipe pequena, focada em entregar valor rápido</h2>
+                </div>
+                <p class="section-sub-text">Somos uma empresa de desenvolvimento de software focada em qualidade e
+                    cuidado com os detalhes. Trabalhamos próximos ao cliente para transformar ideias em produtos
+                    reais, sem camadas desnecessárias no meio do caminho.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section alt">
+            <div class="container narrow">
+                <div class="contact-card">
+                    <h2>Vamos conversar sobre o seu projeto?</h2>
+                    <p>Chame agora pelo WhatsApp e respondemos em poucos minutos.</p>
+                    <a class="btn btn-primary" href="https://wa.me/5581998839100?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20desenvolvimento%20de%20software"
+                        target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 5h16v11H9l-4 4V5z" />
+                        </svg>
+                        Falar no WhatsApp
+                    </a>
+                    <p class="small">Prefere e-mail? Escreva para <a
+                            href="mailto:lwsfesttech@gmail.com">lwsfesttech@gmail.com</a>.</p>
+                    <p class="small">Ao entrar em contato, você concorda que usaremos seus dados apenas para
+                        responder à sua solicitação. Veja nossa <a href="privacy.html">Privacy Policy</a>.</p>
+                </div>
             </div>
         </section>
     </main>
