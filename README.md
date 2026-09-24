@@ -1,2 +1,2 @@
-# fasttach
+# fasttech
 Landin Page 
